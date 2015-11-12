@@ -2,7 +2,7 @@ app.directive('game', function() {
   return {
     restrict: 'E',
     scope: {
-      listing: '='
+      info: '='
     },
     templateUrl: 'js/directives/game.html' 
   };
